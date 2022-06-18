@@ -1,0 +1,22 @@
+"""#Para criar o projeto foi utilizado o comando no CMD dentro da pasta do projeto:
+
+django-admin.exe startproject mysite
+
+#criando um banco de dados: python manage.py migrate
+
+#Iniciando o servidor web no CMD dentro do mesmo diretório: python manage.py runserver
+
+# verificar no Chrome se está funcionando, acessando o IP que foi colocado no settings.py: http://127.0.0.1:8000/
+
+#Comando para iniciar o blog: python manage.py startapp blog
+melhor detalhado aqui: https://tutorial.djangogirls.org/pt/django_models/
+
+#atualizando as alterações no banco de dados do blog:
+
+criando: python manage.py makemigrations blog
+carregando: python manage.py migrate blog
+
+#ver modelo do blog: http://127.0.0.1:8000/admin/
+
+#criando um super usuário: python manage.py createsuperuser
+"""
